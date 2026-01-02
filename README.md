@@ -1,6 +1,18 @@
 # Scalable Analytics & Reporting Backend
 
-Production-grade analytics backend that supports large datasets without killing performance.
+Production-grade analytics backend designed to handle high-volume datasets without impacting OLTP performance.
+
+**Tech Stack:** Java 17, Spring Boot, PostgreSQL, Redis, Docker  
+**Key Concepts:** Async processing, caching, cursor-based pagination, read replicas
+
+## Run Demo (60 seconds)
+
+### Prerequisites
+- Docker Desktop (running)
+
+### Start the stack
+
+    docker compose up --build
 
 ## What This Demonstrates
 
