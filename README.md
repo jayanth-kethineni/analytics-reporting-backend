@@ -2,6 +2,15 @@
 
 Production-grade analytics backend that supports large datasets without killing performance.
 
+## What This Demonstrates
+
+- Designing analytics systems that do not impact OLTP performance
+- Handling high-cardinality analytical queries at scale
+- Async processing patterns for long-running workloads
+- Practical caching strategies to control infrastructure cost
+- Production-ready service structure and failure handling
+
+
 ## Problem Statement
 
 Companies like Netflix, Spotify, Datadog, and Shopify need internal analytics platforms that can query billions of rows without degrading user-facing services. The challenge is providing fast analytics queries over massive datasets while maintaining system stability and cost efficiency.
